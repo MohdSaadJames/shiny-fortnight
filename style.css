@@ -1,0 +1,118 @@
+body {
+    font-size: 15pt;
+    display: flex;
+    justify-items:center;
+    justify-content: center;
+}
+
+.ToolPar{
+  background-color: seagreen;
+  position: absolute;
+  top:0px;
+  width:100vw;
+  height:30px;
+  left:0px;
+  right:0px;
+  margin:0px;
+  padding:0px;
+}
+
+.Im1{
+  position:absolute;
+  width:100vw;
+  left:0px;
+  right:0px;
+  top:29px;
+  height:40%;
+  margin:0px;
+  padding:0px;
+  z-index:-2;
+  
+}
+
+.Im2{
+  display:flex;
+  position: absolute;
+  width:200px;
+  height:200px;
+  top: 50%;
+  left:38%;
+  z-index:-2;
+  
+  
+}
+
+.hr{
+  position: absolute;
+  top:0px;
+  color: seagreen;
+  z-index:1;
+  left: 37%;
+  top: 88%;
+  text-shadow: 2px 2px 5px lightcoral;
+  font-family: Impact;
+}
+
+
+#J{
+  position:absolute;
+  z-index: 5;
+  color: black;
+  position:absolute;
+  top: 225%;
+  font-size: 28px;
+  color: darkolivegreen;
+  
+}
+
+#k{
+  position: absolute;
+  z-index: 5;
+  color:black;
+  top:210%;
+  font-size:48px;
+  color: darkolivegreen;
+  
+}
+
+.B{
+  position:absolute;
+  top: 115%;
+  width:300px;
+  height: 400px;
+}
+
+h3{
+ position:absolute;
+ top:208%;
+}
+.kret{
+  position:absolute;
+  top: 235%;
+  z-index:1;
+  font-size:28px;
+  color:darkseagreen;
+}
+
+a{
+  position:absolute;
+  top: 250%;
+  
+  text-decoration: none;
+  
+}
+button{
+  
+  background-color:seagreen;
+  color: white;
+  width:150px;
+  height:50px;
+  border-radius:13px;
+  font-size: 20px;
+  margin-bottom:10px;
+}
+button::onclick{
+  border:none;
+  outline:none;
+  
+}
